@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matt's Basic Webpage</title>
+    </head>
+    <body>
+        <h1>Matt's Basic Webpage</h1>
+        <p>
+            Hi, my name is <strong>Matt</strong> and welcome to my <em>very basic</em> webpage. I will be showing some concepts here that I've learned in Brad Hussey's Udemy web dev course.
+        </p>
+
+        <hr> <!--This just makes a horizontal line across the screen.-->
+
+        <h2>Some Info About Me</h2>
+
+        <!--Picture of me-->
+        <img src="_avatar.png"  alt="matt's avatar" width="264" height="280"> <!--I know that it isn't good practice to resize pics in html, but that picture is big and I didn't want to resize it otherwise and I cannot use css in this project.-->
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Website</th>
+                <th>Hobbies</th>
+            </tr>
+
+            <tr>
+                <td>Matt</td>
+                <td>Male</td>
+                <td>matthaggard.com</td>
+                <td>guitar, web design, games</td>
+            </tr>
+        </table>
+
+        <hr>
+        <h2>Food I like to eat</h2>
+        <p>
+            <!--Using target="_blank" will open the link in a new tab. just googled that one.-->
+            I enjoy food multiple times per day. Here is a <a href="https://recipes-secure-graphics.grocerywebsite.com/0_GraphicsRecipes/4589_4k.jpg" target="_blank">picture</a> of my favorite food.
+        </p>
+
+        <h3>My Favorite Games</h3>
+
+        <ol>
+            <li>Mortal Kombat</li>
+            <li>God of War</li>
+            <li>WWE 2k</li>
+            <li>Gears of War</li>
+            <li>MLB The Show</li>
+        </ol>
+
+        <form>
+            <fieldset>
+                <legend>Send me an email</legend>
+
+                <label>Name</label>
+                <input type="text" placeholder="enter your name">
+
+                <br><br>
+
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com">
+
+                <br><br>
+
+                <label>Message </label><br>
+                <textarea rows=5 cols="25"></textarea>
+                <br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+    <footer>
+        &copy; 2020 &mdash; Matt Haggard
+    </footer>
+</html>
